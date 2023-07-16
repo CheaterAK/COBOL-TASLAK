@@ -4,7 +4,7 @@ Bu repo [Patike.dev](https://www.patika.dev/) tarafindan gerceklestirilen AKBANK
 
 ![jpeg](https://github.com/CheaterAK/COBOL-TASLAK/blob/master/resim.jpg?raw=true)
 ---
-## Calisma Sekli
+## Calisma sirasinda kullanilan dosyalar
 
 Programimiz toplam 3 dosya ile calismaktadir. 
 ```
@@ -18,4 +18,12 @@ sysout: Read edilen datada ne var ise tamamini yazdirir.
 syserr: Inpfile da bulunan hatalardan kaynakli mesajlar buraya cikarilmaktadir.
 ```
 
+## Ana mantik
+
+```
+Ana program Idxfile haricinde tum dosyalari acar.
+Inpfiledan bir satir okur bu satirin uygunlugunu degerlendirir eger uygun ise alt programa gonderir.
+Alt program Inpfiledan gelen key ile vsamdaki kayda ulasir ve uygun islem tipindeki calismayi uygular.
+alt programdan donen bilgiler ile ana programda cikti uretilip out file a yazilir.
+```
 
